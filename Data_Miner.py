@@ -25,10 +25,10 @@ class MyStreamListener(tweepy.StreamListener):
             # returning False in on_data disconnects the stream
             return False
 
-consumer_key = 'MgJmKnzEgbiIMej45dRiTLMo0'
-consumer_secret = 'Ekm7vr8q9upcHjvL8KqvkQl6HnPzAjS1wS4kBAaUn6IzbUZ0MW'
-access_token= '969345855105847297-ImVGCbferhWyaoPiGTqGWoQYLXUlSAf'
-access_token_secret= 'Pwrwj0apYpK5wxY75CXMVXBfEPdeOsqnG0TkV7iyMqT00'
+consumer_key = 
+consumer_secret =
+access_token= 
+access_token_secret= 
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token,access_token_secret)
